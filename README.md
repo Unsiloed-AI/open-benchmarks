@@ -34,6 +34,9 @@ This benchmark uses Unsiloedvl-table VLM for table extraction:
 
 ## Benchmarks
 
+![Benchmark Results](assets/benchmarks.png)
+
+
 
 ## Directory Structure
 
