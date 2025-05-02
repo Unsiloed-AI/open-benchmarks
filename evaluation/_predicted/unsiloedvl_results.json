@@ -1,5 +1,5 @@
 {
-  "model": "qwen2vl",
+  "model": "unsiloedvl-table",
   "scores": [
     0.9675862193107605,
     1.0,

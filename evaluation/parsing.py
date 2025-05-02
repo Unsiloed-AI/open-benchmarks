@@ -8,7 +8,7 @@ import os
 import re
 
 
-def parse_qwen2vl_response(path: str) -> tuple[str | None, Any]:
+def parse_unsiloedvl_response(path: str) -> tuple[str | None, Any]:
     if not os.path.exists(path):
         return None, None
 

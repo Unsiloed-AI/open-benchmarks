@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../.
 
 # Now import from the local modules
 from grading import table_similarity
-from parsing import parse_qwen2vl_response
+from parsing import parse_unsiloedvl_response
 from convert import html_to_numpy
 
 # Configure paths
@@ -26,7 +26,7 @@ PREDICTED_DIR = os.path.join(os.path.dirname(__file__), "_predicted")
 
 # Parsers for different response formats
 PARSERS = {
-    "qwen2vl": parse_qwen2vl_response,
+    "qwen2vl": parse_unsiloedvl_response,
 }
 
 
@@ -259,7 +259,7 @@ def run_unsiloedvl_table_inference() -> None:
             with open(output_path, "w") as f:
                 json.dump({"error": str(e), "image_id": image_id}, f, indent=2)
 
-    print("\nQwen2VL Inference Summary:")
+    print("\nUnsiloedVL Inference Summary:")
     print(f"Total images: {len(image_files)}")
     print(f"Successfully processed: {processed_count}")
     print(f"Skipped (already processed): {skipped_count}")

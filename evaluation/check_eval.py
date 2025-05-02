@@ -44,7 +44,7 @@ def get_top_k(data: dict, k: int = None) -> dict:
 
 def main():
     # Read the results file
-    results = read_json('evaluation/_predicted/qwen2vl_results.json')
+    results = read_json('evaluation/_predicted/unsiloedvl_results.json')
     
     # Sort and filter the data (removes zero scores)
     sorted_results = get_top_k(results)
