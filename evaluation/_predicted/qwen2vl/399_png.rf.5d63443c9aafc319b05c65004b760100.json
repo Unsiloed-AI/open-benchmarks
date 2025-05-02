@@ -1,0 +1,5 @@
+{
+  "html_table": "<table><tr><th colspan=\"2\">The Sample Kolmogorov-Smirnov 1965</th><th>Unstandardiz\ned Residual</th></tr><tr><td>N</td><td>80</td><td></td></tr><tr><td>Normal Parameters a,b</td><td>Mean</td><td>,00000000</td></tr><tr><td>Std. Deviation</td><td>,28743066</td><td></td></tr><tr><td>Most Extreme</td><td>Absolute</td><td>,119</td></tr><tr><td>Differences</td><td>Positive</td><td>,119</td></tr><tr><td>Negative</td><td></td><td>,092</td></tr><tr><td>Kolmogorov-Smirnov Z</td><td>1,065</td><td></td></tr><tr><td>Asymp. Sig. (2-tailed)</td><td>,207</td><td></td></tr></table>",
+  "image_id": "399_png.rf.5d63443c9aafc319b05c65004b760100",
+  "similarity_score": 0.8441358208656311
+}
