@@ -24,8 +24,7 @@ The repository includes a sample of images by default. To run the evaluation on 
    - `_images`: Contains the table images
    - `_groundtruth`: Contains the ground truth HTML tables
 
-⚠️ **Caution**: Running the evaluation on the full dataset (1000 images) will take a significant amount of time. 
-The results in the current eval sample provide an accurate representation of the model performance.
+
 
 
 ## Benchmarks
